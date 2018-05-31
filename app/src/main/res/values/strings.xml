@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">Home</string>
+    <string name="recent">Recent</string>
+    <string name="scan_qr">Click here to scan</string>
+
+
+    <string name="log_name">Name</string>
+    <string name="log_date">Date</string>
+
+    <string name="no_data">No records found</string>
+</resources>

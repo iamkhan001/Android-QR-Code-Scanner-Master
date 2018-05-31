@@ -1,0 +1,33 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+        android:id="@+id/qrdecoderview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/closeScanner"
+        android:layout_gravity="end"
+        android:layout_width="@dimen/size_normal"
+        android:layout_height="@dimen/size_normal"
+        android:layout_margin="@dimen/space_small"
+        android:src="@drawable/icon_close" />
+
+
+    <info.androidhive.barcode.ScannerOverlay
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#44000000"
+        app:line_color="@color/colorAccent"
+        app:line_speed="6"
+        app:line_width="4"
+        app:square_height="200"
+        app:square_width="200" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+
+    <dimen name="size_normal">40dp</dimen>
+    <dimen name="size_xl">80dp</dimen>
+    <dimen name="size_splash">120dp</dimen>
+
+    <dimen name="space_small">3dp</dimen>
+    <dimen name="space_normal">8dp</dimen>
+    <dimen name="space_large">12dp</dimen>
+
+</resources>
